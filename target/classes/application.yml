@@ -1,2 +1,11 @@
 server:
   port: 8080
+spring:
+  data:
+    mongodb:
+      authentication-database: admin
+      database: Demo
+      #username: root
+      #password: "123456"
+      host: 121.41.121.25
+      port: 27017
